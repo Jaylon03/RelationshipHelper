@@ -1,0 +1,28 @@
+# deps
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# supabase local
+supabase/.branches
+supabase/.temp
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uploads / processed video (handled by Supabase Storage)
+uploads/
+processed/
